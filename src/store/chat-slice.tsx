@@ -7,7 +7,7 @@ interface Message {
   timestamp: number;
 }
 
-interface ChatState {
+export interface ChatState {
   messages: Message[];
   users: string[];
 }
